@@ -135,26 +135,3 @@ Para expandir o aplicativo, você pode:
 5. **Adicionar autenticação**: Login de usuários
 6. **Melhorar UI/UX**: Animações e transições
 
-## 🐛 Resolução de Problemas
-
-### Problema comum: Metro bundler não inicia
-```bash
-npx expo start --clear
-```
-
-### Problema: AsyncStorage não funciona
-Certifique-se de ter instalado a dependência:
-```bash
-npx expo install @react-native-async-storage/async-storage
-```
-
-### Problema: Navegação não funciona
-Instale as dependências de navegação:
-```bash
-npx expo install @react-navigation/native @react-navigation/bottom-tabs
-npx expo install react-native-screens react-native-safe-area-context
-```
-
-## 📄 Licença
-
-Este projeto
